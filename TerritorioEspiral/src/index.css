@@ -1,1 +1,37 @@
+#conocenos,
+#gallery,
+#donation,
+#contact {
+  scroll-margin-top: 80px; /* Ajusta según el alto del navbar */
+}
+html,
+body {
+  overflow-x: hidden;
+  background-color: #ffff;
+  font-family: "Franklin Gothic Medium", "Open Sans", Arial, sans-serif !important;
+  overflow-y: scroll;
+}
+/* estilos para svgs que decoran(secciones: estadisticas y contacto) */
+#img-decoracion-svg {
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+}
 
+h2 {
+  color: #5bc0be;
+}
+p {
+  color: #728083;
+}
+/* 
+tamaño de fuente para resoluciones mayores a 1200px y se le aplica a los p que tenga la clase .tamaño fuente */
+@media (min-width: 1200px) {
+  #conocenos,
+  #estadisticas,
+  #gallery,
+  #donation,
+  #contact .tamaño-fuente {
+    font-size: 1.2rem;
+  }
+}
