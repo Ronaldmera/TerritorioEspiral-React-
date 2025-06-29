@@ -1,5 +1,6 @@
 import "../Statistics/Statistics.css";
 import Card from "./Card/Card";
+import Boton from "../Boton/Boton";
 
 // importando cada imagen de cada card
 import image1 from "../../assets/Statistics/1.svg";
@@ -22,12 +23,8 @@ const Statistics = () => {
             moverse con amor. Gracias al compromiso de nuestra comunidad, hemos
             logrado transformar el sufrimiento en nuevas oportunidades.
           </p>
-          <a
-            href="#donation"
-            className="btn btn-dark text-white px-4 py-2 mb-5"
-          >
-            Donar
-          </a>
+
+          <Boton text={"Donar"} href={"#donation"} />
         </div>
       </div>
       <div className="container c2 lh-sm">
