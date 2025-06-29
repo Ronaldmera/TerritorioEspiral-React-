@@ -3,6 +3,8 @@ import hero1 from "../../assets/Hero/hero1.webp";
 
 import hero3 from "../../assets/Hero/hero3.webp";
 import "../Hero/Hero.css";
+
+import Boton from "../Boton/Boton";
 const Hero = () => {
   return (
     <section id="hero" className="pt-5 w-100">
@@ -56,12 +58,8 @@ const Hero = () => {
             de amor. Ayúdanos a seguir cambiando vidas.
           </p>
           <div className="botones d-flex justify-content-center gap-3 mt-3">
-            <a href="#donation" className="btn">
-              Donar
-            </a>
-            <a href="#contact" className="btn">
-              Contáctanos
-            </a>
+            <Boton text={"Donación"} href={"#donation"} />
+            <Boton text={"Contacto"} href={"#contact"} />
           </div>
         </div>
 
